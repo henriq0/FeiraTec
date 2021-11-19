@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./img/background.pn);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* barra de navegação */
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover{
+  opacity: 0.5;
+  transition: 200ms;
+  
+}
+
+h5:hover{
+  color: black;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #23232e;
+  height: 8vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+
+
+/* introdução do conteudo */  
+
+.introdução{
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+
+.introdução h2{
+  width: 83%;
+  color: black;
+  font-size: 35px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  border-bottom: 4px solid grey;
+}
+
+.introdução h3{
+  width: 100%;
+  color: black;
+  font-size: 35px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+.intro , .intro2{
+  width: 80%;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.introdução img{
+  width: 600px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+
+}
+
+.intro3{
+   width: 80%;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 80px;
+}
+
+.introdução li{
+  width: 80%;
+  color: black;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+hr{
+  margin-top: 10px;
+}
+
+/* Principios LGPD*/
+
+.texto-principios{
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.texto-principios h2{
+  width: 83%;
+  color: black;
+  font-size: 35px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  border-bottom: 4px solid grey;
+}
+
+.texto-principios p{
+   width: 80%;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+.texto-principios li{
+  width: 80%;
+  color: black;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+/* administração */
+
+.texto-adm{
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.texto-adm h2{
+   width: 83%;
+  color: black;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  border-bottom: 4px solid grey;
+}
+.texto-adm h3{
+  width: 100%;
+  color: black;
+  font-size: 25px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+.texto-adm p{
+  width: 80%;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+.texto-adm li{
+  width: 80%;
+  color: black;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+/* footer css */
+.main-footer{
+}
+
+.footer-box{
+  background-color: grey;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  border-top: 4px solid black;
+}
+.rodape{
+  padding-bottom: 20px;
+  margin-left: 50px;
+  width: 30%;
+}
+.logo img{
+  width: 40px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+footer{
+  display: inline-flex;
+  justify-content: center;
+}
+.titulo-footer{
+  margin-bottom: px;
+}
+
+.titulo-footer h2{
+  font-size: 50px;
+  font-family: Arial;
+}
